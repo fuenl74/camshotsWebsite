@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+
+ <html>
+  <head>
+	
+	<title>HTML Lists</title>
+	
+	<style>
+
+	.horizontal
+	{
+	   list-style-type: none;
+	   margin: 0;
+	   overflow: hidden;
+	   background-color: #333333;
+	}	
+
+	 .horizontal li
+	 {
+	   float: left;
+	   
+	 }
+
+	.horizontal li a
+ 	{
+	
+	   display: block;	
+	   color: white;
+	   text-align: center;
+	   padding: 16px;
+	   text-decoration: none;
+	
+	}
+
+	</style>
+
+  </head> 
+   
+   <body>
+
+	<p>Unordered lists</p>
+
+	<ul>
+
+	    <li>Coffee</li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+
+	</ul>
+
+	<p>Ordered lists</p>
+
+	<ol>
+
+	    <li>Coffee</li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+
+	</ol>
+
+	<p>Nested lists</p>
+
+	<ol>
+
+	    <li>Coffee</li>
+	    <li>Tea<br/>&nbsp;
+
+		<ol>
+		    
+		    <li>Black tea</li>
+		    <li>Green tea<br/>&nbsp;</li>
+
+		</ol>
+
+	    </li>
+
+	    <li>Milk</li>
+
+	</ol>
+
+	<p>Description lists</p>
+	
+	<dl>
+	   
+	    <dt>Coffee</dt>
+	    <dd>Black hot drink</dd>
+	    <dt>Milk</dt>
+	    <dd>White cold drink</dd>
+	
+	</dl>
+
+
+	<p>Unordered lists with type attribute</p>
+
+	<ul type="square">
+
+	    <li>Coffee</li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+
+	</ul>
+
+	<p>Ordered lists with type attribute</p>
+
+	<ol type = "i">
+	
+	    <li>Coffee</li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+
+	</ol>
+
+	<p>Ordered lists with start and type attribute</p>
+
+	<ol type="a" start="5">
+	
+	    <li>Coffee</li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+
+	</ol>
+
+	<p>Unordered lists with list-style-type property</p>
+
+	<ul style="list-style-type:circle">
+
+	    <li>Coffee</li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+
+	</ul>
+	
+	<p>Ordered lists with list-style-type property</p>
+
+	<ol style="list-style-type:upper-greek">
+
+	    <li>Coffee</li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+
+	</ol>
+
+	<p>Unordered lists with list-style-image property</p>
+
+	<ul style="list-style-image:url('cup.png')">
+
+	    <li>Coffee</li>
+	    <li>Tea</li>
+	    <li>Milk</li>
+
+	</ul>
+
+	<p>Horizontally displayed Unordered lists</p>
+
+	<ul class="horizontal">
+
+	    <li><a href="">Coffee</a></li>
+	    <li><a href="">Tea</a></li>
+	    <li><a href="">Milk</a></li>
+
+	</ul>
+
+
+   </body>     
+
+ </html>                                                                                                                                    
